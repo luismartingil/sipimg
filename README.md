@@ -1,5 +1,5 @@
-INVITE Message Generator for the SIP protocol.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INVITE Message Generator for the SIP protocol
+=============================================
 
 Description
 -----------
