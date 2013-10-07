@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presence xmlns="urn:ietf:params:xml:ns:pidf"
+          xmlns:gp="urn:ietf:params:xml:ns:pidf:geopriv10"
+          xmlns:cl="urn:ietf:params:xml:ns:pidf:geopriv10:civicAddr"
+          xmlns:gml="http://www.opengis.net/gml"
+	  xmlns:ca="urn:ietf:params:xml:ns:pidf:geopriv10:civicAddr"
+	  entity="pres:alice@atlanta.example.com">
+<tuple id="point2d">
+  <status>
+    <gp:geopriv>
+      <gp:location-info>
+	<ca:civicAddress>
+	  <ca:country>US</ca:country>
+	  <ca:A1>TX</ca:A1>
+	  <ca:A2>BURLESON COUNTY</ca:A2>
+	  <ca:A3>CALDWELL</ca:A3>
+	  <ca:PRD>N</ca:PRD>
+	  <ca:RD>GRAY</ca:RD>
+	  <ca:STS>ST</ca:STS>
+	  <ca:HNO>169</ca:HNO>
+	  <ca:PC>77836</ca:PC>
+	  <ca:PCN>CALDWELL</ca:PCN>
+	</ca:civicAddress>
+      </gp:location-info>
+      <gp:usage-rules>
+        <gp:retransmission-allowed>no</gp:retransmission-allowed>
+        <gp:retention-expiry>2011-12-25T18:00:00Z</gp:retention-expiry>
+      </gp:usage-rules>
+    </gp:geopriv>
+  </status>
+</tuple>
+</presence>

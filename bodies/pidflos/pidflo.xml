@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <presence xmlns="urn:ietf:params:xml:ns:pidf"
+          xmlns:gp="urn:ietf:params:xml:ns:pidf:geopriv10"
+          xmlns:cl="urn:ietf:params:xml:ns:pidf:geopriv10:civicAddr"
+          xmlns:gml="http://www.opengis.net/gml"
+          entity="pres:alice@atlanta.example.com">
+        <dm:device id="point2d">
+         <timestamp>2007-12-02T14:00:00Z</timestamp>
+         <status>
+          <gp:geopriv>
+            <gp:location-info>
+	    <gml:Point id="point1" srsName="urn:ogc:def:crs:EPSG::4326">
+	    	       <gml:pos>41.2186 -85.02603</gml:pos>
+		       </gml:Point>
+	    </gp:location-info>
+            <gp:usage-rules>
+              <gp:retransmission-allowed>no</gp:retransmission-allowed>
+              <gp:retention-expiry>2007-12-07T18:00:00Z</gp:retention-
+                            expiry>
+            </gp:usage-rules>
+            <gp:method>DHCP</gp:method>
+            <gp:provided-by>www.example.com</gp:provided-by>
+          </gp:geopriv>
+         </status>
+        </dm:device>
+      </presence>
