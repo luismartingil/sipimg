@@ -1,7 +1,8 @@
 INVITE Message Generator for the SIP protocol.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Description
+Description
+-----------
 The SIP INVITE message generator is a C-based program to create SIP INVITE messages from the command line in a flexible way. By using this program we will be able to fake SIP INVITE messages and add the headers, contents and more specific information easily from the command line. This tool will be a fake user agent and will act as a caller within a SIP call.
 
 ### INVITE Message Generator allows the user:
