@@ -1,4 +1,5 @@
-INVITE Message Generator for the SIP protocolmat=============================================
+INVITE Message Generator for the SIP protocol
+=============================================
 
 Description
 -----------
