@@ -38,14 +38,13 @@ The interface could be:
 + pjsip with ~~bug~~ patch https://trac.pjsip.org/repos/ticket/1387 applied.
 
 # Installation
-### Compiling pjlib
+    # Compiling pjlib
     cd pjproject-1.10
     ./configure --disable-ssl
     make dep
     make
     make install
-
-### Compiling img
+    # Compiling img
     cd img/src/
     make clean
     make all
